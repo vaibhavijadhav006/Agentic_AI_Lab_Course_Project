@@ -1,0 +1,470 @@
+{
+  "project_title": "Agentic Email Organizer \u2014 Complete 14-Lab Final Capstone",
+  "institution": "College Engineering Laboratory Project",
+  "generated_at": "2026-11-21T08:50:48.720931",
+  "architecture_overview": {
+    "paradigm": "Multi-Agent Graph Orchestration with Parallel Swarm & Governance",
+    "total_practical_labs_integrated": 14,
+    "seven_active_agents": [
+      "TriageAgent",
+      "DeepResearchAgent",
+      "AcademicAdvisorAgent",
+      "PlacementSpecialistAgent",
+      "AdministrativeOfficerAgent",
+      "SafetyGovernanceAgent",
+      "QualityAssuranceAgent"
+    ]
+  },
+  "lab_integration_matrix": {
+    "Lab 1 (Agent vs Chatbot)": "Autonomous Goal-Driven Execution Loop (Observe-Plan-Act-Observe)",
+    "Lab 2 (Tool-Using Agent)": "Central ToolRegistry with dynamic execution & latency tracking",
+    "Lab 3 (Skill Creation)": "Reusable EmailSkills (classify, priority, actions, draft, followups)",
+    "Lab 4 (Memory & Retrieval)": "SQLite Persistent MemoryStore with semantic/keyword retrieval",
+    "Lab 5 (MCP-Style Connector)": "Decoupled JSONEmailConnector & MCPStyleEmailAdapter",
+    "Lab 6 (Agent Runtime & Telemetry)": "AgentRuntime logged 25 events, avg latency 14.25ms",
+    "Lab 7 (Node Graph Orchestration)": "Directed StateGraph executed 10 nodes seamlessly",
+    "Lab 8 (Parallel Agent Swarm)": "ThreadPoolExecutor parallel swarm dispatched discipline agents concurrently",
+    "Lab 9 (Deep Research Agent)": "Synthesized 5 deep research dossiers with citations",
+    "Lab 10 (Cloud Ops & Error Monitoring)": "Simulated cloud health (Simulated Local Cloud Environment (College Lab Runtime)) with circuit breakers",
+    "Lab 11 (Agentic SDLC Factory)": "Automated CI/CD test suite passed 7/7 assertions",
+    "Lab 12 (Safety & Governance)": "Strict human-in-the-loop enforced for 5 drafts (Zero unauthorized sends)",
+    "Lab 13 (Discipline-Specific Agents)": "Academic, Placement & Admin specialists contributed domain recommendations",
+    "Lab 14 (Integrated Capstone)": "Unified single-command pipeline running continuously to completion"
+  },
+  "triaged_inbox": [
+    {
+      "email_id": "E001",
+      "category": "academic",
+      "priority": "MEDIUM",
+      "urgency_score": 60,
+      "reason": "Rule-based classification; urgency keyword hits=1"
+    },
+    {
+      "email_id": "E002",
+      "category": "meeting",
+      "priority": "LOW",
+      "urgency_score": 25,
+      "reason": "Rule-based classification; urgency keyword hits=0"
+    },
+    {
+      "email_id": "E003",
+      "category": "academic",
+      "priority": "LOW",
+      "urgency_score": 25,
+      "reason": "Rule-based classification; urgency keyword hits=0"
+    },
+    {
+      "email_id": "E004",
+      "category": "placement",
+      "priority": "HIGH",
+      "urgency_score": 85,
+      "reason": "Rule-based classification; urgency keyword hits=4"
+    },
+    {
+      "email_id": "E005",
+      "category": "academic",
+      "priority": "LOW",
+      "urgency_score": 25,
+      "reason": "Rule-based classification; urgency keyword hits=0"
+    }
+  ],
+  "draft_queue": [
+    {
+      "email_id": "E003",
+      "to": "faculty.ds@college.edu",
+      "subject": "Re: Question about your assignment",
+      "body": "Dear Professor,\n\nThank you for reaching out regarding the assignment. In accordance with the course specification, the graph traversal implementation utilizes Breadth-First Search (BFS) for shortest path routing and Depth-First Search (DFS) for cycle detection. I have documented both in the report comments.\n\nRespectfully,\nStudent",
+      "status": "PENDING_APPROVAL",
+      "id": 159
+    },
+    {
+      "email_id": "E004",
+      "to": "placement@college.edu",
+      "subject": "Re: Action required: placement registration",
+      "body": "Dear Placement Team,\n\nThank you for the notification regarding 'Action required: placement registration'. I have accessed the portal, completed the placement registration, and verified all profile details.\n\nBest regards,\nStudent (Roll No: CS-2024-042)",
+      "status": "PENDING_APPROVAL",
+      "id": 160
+    },
+    {
+      "email_id": "E001",
+      "to": "prof.ai@college.edu",
+      "subject": "Re: Project review meeting - Friday",
+      "body": "Dear Professor,\n\nThank you for the notification. I am completing the milestone report and will submit the PDF well before Friday 5 PM. I will be ready for our review session at 10 AM.\n\nRespectfully,\nStudent",
+      "status": "PENDING_APPROVAL",
+      "id": null
+    },
+    {
+      "email_id": "E002",
+      "to": "hod.cs@college.edu",
+      "subject": "Re: Department meeting minutes",
+      "body": "Dear Department Office / HOD,\n\nThank you for sharing the 'Department meeting minutes'. The minutes have been received, reviewed, and recorded for reference.\n\nSincerely,\nStudent Representative",
+      "status": "PENDING_APPROVAL",
+      "id": null
+    },
+    {
+      "email_id": "E005",
+      "to": "prof.ml@college.edu",
+      "subject": "Re: Research paper suggestions",
+      "body": "Dear Professor,\n\nThank you for sharing these research papers. I will review the methodologies and incorporate relevant insights into the literature review section.\n\nRespectfully,\nStudent",
+      "status": "PENDING_APPROVAL",
+      "id": null
+    }
+  ],
+  "action_items": [
+    {
+      "email_id": "E001",
+      "subject": "Project review meeting - Friday",
+      "action": "submit your project progress report before Friday 5 PM",
+      "category": "academic"
+    },
+    {
+      "email_id": "E001",
+      "subject": "Project review meeting - Friday",
+      "action": "be ready for the review meeting at 10 AM",
+      "category": "academic"
+    },
+    {
+      "email_id": "E003",
+      "subject": "Question about your assignment",
+      "action": "clarify whether your assignment uses BFS or DFS for the graph traversal section",
+      "category": "academic"
+    },
+    {
+      "email_id": "E004",
+      "subject": "Action required: placement registration",
+      "action": "complete placement registration by tomorrow 6 PM",
+      "category": "placement"
+    },
+    {
+      "email_id": "E004",
+      "subject": "Action required: placement registration",
+      "action": "Reply if you have any issue",
+      "category": "placement"
+    },
+    {
+      "email_id": "E001",
+      "subject": "Project review meeting - Friday",
+      "action": "[ACADEMIC] Prepare two-page project milestone summary per college guidelines.",
+      "category": "academic"
+    },
+    {
+      "email_id": "E001",
+      "subject": "Project review meeting - Friday",
+      "action": "[ACADEMIC] Assemble slide deck for Friday 10 AM review meeting with sprint deliverables.",
+      "category": "academic"
+    },
+    {
+      "email_id": "E002",
+      "subject": "Department meeting minutes",
+      "action": "[ADMINISTRATIVE] Archive department minutes in institutional compliance repository.",
+      "category": "administrative"
+    },
+    {
+      "email_id": "E002",
+      "subject": "Department meeting minutes",
+      "action": "[ADMINISTRATIVE] Check for student representation agenda items in next quarterly review.",
+      "category": "administrative"
+    },
+    {
+      "email_id": "E002",
+      "subject": "Department meeting minutes",
+      "action": "[ADMINISTRATIVE] Acknowledge receipt within standard 3-day departmental window.",
+      "category": "administrative"
+    },
+    {
+      "email_id": "E003",
+      "subject": "Question about your assignment",
+      "action": "[ACADEMIC] Verify CS301 graph traversal requirements (BFS for shortest path, DFS for topological sort).",
+      "category": "academic"
+    },
+    {
+      "email_id": "E003",
+      "subject": "Question about your assignment",
+      "action": "[ACADEMIC] Prepare clear algorithmic explanation with time/space complexity notes for professor.",
+      "category": "academic"
+    },
+    {
+      "email_id": "E004",
+      "subject": "Action required: placement registration",
+      "action": "[PLACEMENT] Check placement portal credentials and verify all mandatory resume fields.",
+      "category": "placement"
+    },
+    {
+      "email_id": "E004",
+      "subject": "Action required: placement registration",
+      "action": "[PLACEMENT] Complete mandatory drive registration before deadline tomorrow 6 PM to prevent de-listing.",
+      "category": "placement"
+    },
+    {
+      "email_id": "E004",
+      "subject": "Action required: placement registration",
+      "action": "[PLACEMENT] Verify all semester transcripts are uploaded and attested in profile.",
+      "category": "placement"
+    },
+    {
+      "email_id": "E005",
+      "subject": "Research paper suggestions",
+      "action": "[ACADEMIC] Review cited papers for literature review section.",
+      "category": "academic"
+    },
+    {
+      "email_id": "E005",
+      "subject": "Research paper suggestions",
+      "action": "[ACADEMIC] Prepare 1-page comparative summary for next advisory meeting.",
+      "category": "academic"
+    }
+  ],
+  "follow_up_digest": [
+    {
+      "email_id": "E004",
+      "follow_up_date": "2026-11-22",
+      "priority": "HIGH",
+      "action_items": [
+        "complete placement registration by tomorrow 6 PM",
+        "Reply if you have any issue"
+      ]
+    }
+  ],
+  "research_dossiers": {
+    "E001": {
+      "email_id": "E001",
+      "topic": "Project review meeting - Friday",
+      "query_expanded": [
+        "project progress review",
+        "guideline:project_progress_review",
+        "department meeting protocol",
+        "admin:department_meeting_protocol"
+      ],
+      "findings": "Synthesized Evidence:\n- Research paper suggestions: Here are some papers you may read for the literature review. No immediate action is required.\n- Project review meeting - Friday: Please submit your project progress report before Friday 5 PM and be ready for the review meeting at 10 AM.\n- guideline:project_progress_review: College Academic Council: Project milestone reviews require a standard two-page progress report covering methodology, current sprint deliverables, and test coverage submitted 48 hours i",
+      "citations": [
+        "[E005] Research paper suggestions",
+        "[E001] Project review meeting - Friday",
+        "[MEM-27] guideline:project_progress_review",
+        "[E002] Department meeting minutes",
+        "[E001] Project review meeting - Friday",
+        "[MEM-28] admin:department_meeting_protocol"
+      ],
+      "confidence_score": 0.96
+    },
+    "E002": {
+      "email_id": "E002",
+      "topic": "Department meeting minutes",
+      "query_expanded": [
+        "department meeting protocol",
+        "admin:department_meeting_protocol"
+      ],
+      "findings": "Synthesized Evidence:\n- Department meeting minutes: The minutes from yesterday's department meeting are attached for your reference.\n- Project review meeting - Friday: Please submit your project progress report before Friday 5 PM and be ready for the review meeting at 10 AM.\n- admin:department_meeting_protocol: CS Department Bylaws: All faculty and student representatives must acknowledge minutes within 3 business days. Action items from minutes are tracked in quarterly department reviews.",
+      "citations": [
+        "[E002] Department meeting minutes",
+        "[E001] Project review meeting - Friday",
+        "[MEM-28] admin:department_meeting_protocol"
+      ],
+      "confidence_score": 0.96
+    },
+    "E003": {
+      "email_id": "E003",
+      "topic": "Question about your assignment",
+      "query_expanded": [
+        "data structures assignment",
+        "bfs dfs traversal policy",
+        "curriculum:data_structures_assignment"
+      ],
+      "findings": "Synthesized Evidence:\n- Question about your assignment: Can you clarify whether your assignment uses BFS or DFS for the graph traversal section?\n- curriculum:data_structures_assignment: Course CS301 (Data Structures): Assignment 2 requires graph traversal implementation. The syllabus specifies Breadth-First Search (BFS) for shortest path routing and Depth-First Sea\n- Question about your assignment: Can you clarify whether your assignment uses BFS or DFS for the graph traversal section?",
+      "citations": [
+        "[E003] Question about your assignment",
+        "[MEM-26] curriculum:data_structures_assignment",
+        "[E003] Question about your assignment",
+        "[MEM-25] policy:placement_registration_deadline",
+        "[MEM-26] curriculum:data_structures_assignment"
+      ],
+      "confidence_score": 0.96
+    },
+    "E004": {
+      "email_id": "E004",
+      "topic": "Action required: placement registration",
+      "query_expanded": [
+        "placement registration deadline",
+        "policy:placement_registration_deadline"
+      ],
+      "findings": "Synthesized Evidence:\n- Action required: placement registration: Students must complete placement registration by tomorrow 6 PM. Reply if you have any issue.\n- policy:placement_registration_deadline: College Placement Cell Rule: All final-year students must complete corporate drive registration 24 hours prior to drive start. Failure to register results in automatic de-listing f\n- policy:placement_registration_deadline: College Placement Cell Rule: All final-year students must complete corporate drive registration 24 hours prior to drive start. Failure to register results in automatic de-listing f",
+      "citations": [
+        "[E004] Action required: placement registration",
+        "[MEM-25] policy:placement_registration_deadline",
+        "[MEM-25] policy:placement_registration_deadline"
+      ],
+      "confidence_score": 0.96
+    },
+    "E005": {
+      "email_id": "E005",
+      "topic": "Research paper suggestions",
+      "query_expanded": [
+        "literature review guidelines",
+        "academic research paper submission"
+      ],
+      "findings": "Synthesized Evidence:\n- Research paper suggestions: Here are some papers you may read for the literature review. No immediate action is required.\n- Project review meeting - Friday: Please submit your project progress report before Friday 5 PM and be ready for the review meeting at 10 AM.\n- Research paper suggestions: Here are some papers you may read for the literature review. No immediate action is required.",
+      "citations": [
+        "[E005] Research paper suggestions",
+        "[E001] Project review meeting - Friday",
+        "[E005] Research paper suggestions",
+        "[MEM-47] researh"
+      ],
+      "confidence_score": 0.96
+    }
+  },
+  "safety_audit_records": {
+    "E003": {
+      "email_id": "E003",
+      "pii_detected": [],
+      "sensitive_content_flagged": false,
+      "policy_compliance": true,
+      "human_approval_required": true,
+      "risk_level": "LOW",
+      "notes": "Strict human approval verified: draft queued for manual review."
+    },
+    "E004": {
+      "email_id": "E004",
+      "pii_detected": [],
+      "sensitive_content_flagged": false,
+      "policy_compliance": true,
+      "human_approval_required": true,
+      "risk_level": "LOW",
+      "notes": "Strict human approval verified: draft queued for manual review."
+    },
+    "E001": {
+      "email_id": "E001",
+      "pii_detected": [],
+      "sensitive_content_flagged": false,
+      "policy_compliance": true,
+      "human_approval_required": true,
+      "risk_level": "LOW",
+      "notes": "Strict human approval verified: draft queued for manual review."
+    },
+    "E002": {
+      "email_id": "E002",
+      "pii_detected": [],
+      "sensitive_content_flagged": false,
+      "policy_compliance": true,
+      "human_approval_required": true,
+      "risk_level": "LOW",
+      "notes": "Strict human approval verified: draft queued for manual review."
+    },
+    "E005": {
+      "email_id": "E005",
+      "pii_detected": [],
+      "sensitive_content_flagged": false,
+      "policy_compliance": true,
+      "human_approval_required": true,
+      "risk_level": "LOW",
+      "notes": "Strict human approval verified: draft queued for manual review."
+    }
+  },
+  "sdlc_qa_results": [
+    {
+      "test_id": "SDLC-001",
+      "test_name": "Ingestion Schema Integrity",
+      "category": "Schema",
+      "passed": true,
+      "message": "All emails conform to standard schema (id, sender, subject, body, received_at).",
+      "duration_ms": 0.0
+    },
+    {
+      "test_id": "SDLC-002",
+      "test_name": "Triage Classification Contract",
+      "category": "Contract",
+      "passed": true,
+      "message": "All emails classified with valid category and priority.",
+      "duration_ms": 0.01
+    },
+    {
+      "test_id": "SDLC-003",
+      "test_name": "Urgency Boundary Assertion",
+      "category": "Assertion",
+      "passed": true,
+      "message": "All urgency scores reside strictly in [0, 100] boundary.",
+      "duration_ms": 0.0
+    },
+    {
+      "test_id": "SDLC-004",
+      "test_name": "Human Approval Guardrail",
+      "category": "Security",
+      "passed": true,
+      "message": "Zero emails dispatched automatically. All drafts require human approval.",
+      "duration_ms": 0.0
+    },
+    {
+      "test_id": "SDLC-005",
+      "test_name": "Draft Content Completeness",
+      "category": "Quality",
+      "passed": true,
+      "message": "All generated drafts have valid recipient, subject, and non-empty body.",
+      "duration_ms": 0.0
+    },
+    {
+      "test_id": "SDLC-006",
+      "test_name": "Memory Retrieval Contract",
+      "category": "Integration",
+      "passed": true,
+      "message": "Memory retrieval query executed and returned valid structured records.",
+      "duration_ms": 0.6
+    },
+    {
+      "test_id": "SDLC-007",
+      "test_name": "Multi-Agent Coverage Verification",
+      "category": "Coverage",
+      "passed": true,
+      "message": "100% email coverage across Triage and Multi-Agent Swarm (5/5).",
+      "duration_ms": 0.0
+    }
+  ],
+  "runtime_telemetry": {
+    "uptime_seconds": 0.17,
+    "total_agent_invocations": 25,
+    "average_latency_ms": 14.25,
+    "invocations_by_agent": {
+      "IngestionClassificationAgent": 1,
+      "PriorityUrgencyAgent": 1,
+      "DeepResearchAgent": 5,
+      "ActionItemExtractionAgent": 1,
+      "DraftReplyAgent": 1,
+      "AcademicAdvisorAgent": 3,
+      "AdministrativeOfficerAgent": 1,
+      "PlacementSpecialistAgent": 1,
+      "ParallelDisciplineSwarm": 1,
+      "FollowupReminderAgent": 1,
+      "CalendarTaskSyncAgent": 1,
+      "SafetyGovernanceAgent": 5,
+      "QualityAssuranceAgent": 1,
+      "ArchiveLoggingAgent": 1,
+      "NodeGraphOrchestrator": 1
+    },
+    "cumulative_latency_by_agent_ms": {
+      "IngestionClassificationAgent": 6.25,
+      "PriorityUrgencyAgent": 0.31,
+      "DeepResearchAgent": 30.37,
+      "ActionItemExtractionAgent": 0.05,
+      "DraftReplyAgent": 10.34,
+      "AcademicAdvisorAgent": 33.2,
+      "AdministrativeOfficerAgent": 8.12,
+      "PlacementSpecialistAgent": 14.69,
+      "ParallelDisciplineSwarm": 25.53,
+      "FollowupReminderAgent": 0.01,
+      "CalendarTaskSyncAgent": 11.32,
+      "SafetyGovernanceAgent": 24.19,
+      "QualityAssuranceAgent": 3.94,
+      "ArchiveLoggingAgent": 27.57,
+      "NodeGraphOrchestrator": 160.29
+    },
+    "total_logged_events": 25,
+    "log_file": "D:\\7th sem\\Agentic ai\\Email_Organizer_Completed\\Email_Organizer\\data\\runtime_execution.log"
+  },
+  "cloud_operations": {
+    "environment": "Simulated Local Cloud Environment (College Lab Runtime)",
+    "circuit_breakers": {
+      "connector": "CLOSED",
+      "storage": "CLOSED"
+    },
+    "active_incidents_count": 0,
+    "incidents": []
+  },
+  "human_approval_policy": "STRICT_ENFORCEMENT: All outbound email actions require manual review."
+}

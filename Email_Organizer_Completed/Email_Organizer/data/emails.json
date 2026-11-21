@@ -1,0 +1,37 @@
+[
+  {
+    "id": "E001",
+    "sender": "prof.ai@college.edu",
+    "subject": "Project review meeting - Friday",
+    "body": "Please submit your project progress report before Friday 5 PM and be ready for the review meeting at 10 AM.",
+    "received_at": "2026-10-01T08:30:00"
+  },
+  {
+    "id": "E002",
+    "sender": "hod.cs@college.edu",
+    "subject": "Department meeting minutes",
+    "body": "The minutes from yesterday's department meeting are attached for your reference.",
+    "received_at": "2026-10-01T09:00:00"
+  },
+  {
+    "id": "E003",
+    "sender": "faculty.ds@college.edu",
+    "subject": "Question about your assignment",
+    "body": "Can you clarify whether your assignment uses BFS or DFS for the graph traversal section?",
+    "received_at": "2026-10-01T09:15:00"
+  },
+  {
+    "id": "E004",
+    "sender": "placement@college.edu",
+    "subject": "Action required: placement registration",
+    "body": "Students must complete placement registration by tomorrow 6 PM. Reply if you have any issue.",
+    "received_at": "2026-10-01T09:20:00"
+  },
+  {
+    "id": "E005",
+    "sender": "prof.ml@college.edu",
+    "subject": "Research paper suggestions",
+    "body": "Here are some papers you may read for the literature review. No immediate action is required.",
+    "received_at": "2026-10-01T09:30:00"
+  }
+]
